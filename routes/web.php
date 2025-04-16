@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('/next', function () {
-    return response()->json('message', 'Next Hello World!');
+    return response()->json(['message', 'Next Hello World!']);
 });
